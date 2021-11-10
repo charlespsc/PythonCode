@@ -53,6 +53,6 @@ print("    *\n" "   * *\n" "  *   *\n" " *     *\n""***   ***\n""  *   *\n""  * 
 print ("string" * 2)
 
 
-# Literais - os dados em si
+# 2.2.1.2 Literais - os dados em si
 print("2")
 print(2)
