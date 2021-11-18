@@ -100,3 +100,31 @@ print ("### VARIÁVEIS ###")
 var = "1 mil reais"
 print(var)
 
+var = "3.8.5"
+print("Python version: " + var)
+
+var = 1
+print(var)
+var = var + 1
+print(var)
+
+var = 100
+var = 200 + 300
+print(var)
+
+print ("Resolução de problemas matemáticos simples")
+a = 3.0
+b = 4.0
+c = (a ** 2 + b ** 2) ** 0.5
+print("c =", c)
+
+print ()
+print ("LAB: Variáveis")
+
+jonh = 3 
+mary = 5
+adam = 6
+total_apples = jonh + mary + adam
+
+print (jonh, mary, adam, sep=",")
+print (total_apples)
