@@ -94,3 +94,9 @@ print ("Operadores aritméticos: divisão inteira")
 #Um sinal // (dupla barra) é um operador de divisão inteira.
 print(6 // 4)
 print(6. // 4)
+
+
+print ("### VARIÁVEIS ###")
+var = "1 mil reais"
+print(var)
+
