@@ -128,3 +128,17 @@ total_apples = jonh + mary + adam
 
 print (jonh, mary, adam, sep=",")
 print (total_apples)
+
+print ()
+print ("Operadores de atalho")
+
+print("LAB 2.4.1.9 - Variáveis: um conversor simples")
+
+kilometers = 12.25
+miles = 7.38
+
+miles_to_kilometers = 1.61*miles
+kilometers_to_miles = kilometers/1.61
+
+print(miles, "miles is", round(miles_to_kilometers, 2), "kilometers")
+print(kilometers, "kilometers is", round(kilometers_to_miles, 2), "miles")
