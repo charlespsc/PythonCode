@@ -1,3 +1,6 @@
 {
-    "python.pythonPath": "C:\\Users\\Prof. Charles\\AppData\\Local\\Programs\\Python\\Python310\\python.exe"
+"python.pythonPath": "C:\\Users\\Prof. Charles\\AppData\\Local\\Programs\\Python\\Python310\\python.exe"
+, 
+"terminal.integrated.env.linux":
+{  "LESSCHARSET": "utf-8"}
 }
