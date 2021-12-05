@@ -142,3 +142,75 @@ kilometers_to_miles = kilometers/1.61
 
 print(miles, "miles is", round(miles_to_kilometers, 2), "kilometers")
 print(kilometers, "kilometers is", round(kilometers_to_miles, 2), "miles")
+
+var = 2
+print(var)
+
+var = 3
+print(var)
+
+var += 1
+print(var)
+
+var = "007"
+print("Agent " + var)
+
+var = 2
+var = 3
+print(var)
+
+a = '1'
+b = "1"
+print(a + b)
+
+a = 6
+b = 3
+a /= 2 * b
+print(a)
+
+# This program evaluates the hypotenuse c.
+# a and b are the lengths of the legs.
+a = 3.0
+b = 4.0
+c = (a ** 2 + b ** 2) ** 0.5  # We use ** instead of square root.
+print("c =", c)
+
+#This is a test program.
+x = 1
+y = 2
+# y = y + x
+print(x + y)
+
+#this program computes the number of seconds in a given number of hours
+# this program has been written two days ago
+
+a = 2 # number of hours
+seconds = 3600 # number of seconds in 1 hour
+
+print("Hours: ", a) #printing the number of hours
+print("Seconds in Hours: ", a * seconds) # printing the number of seconds in a given number of hours
+
+print ("Goodbye")
+#this is the end of the program that computes the number of seconds in 3 hour
+
+# This program prints
+# an introduction to the screen.
+print("Hello!")  # Invoking the print() function
+# print("I'm Python.")
+
+# print("String #1")
+print("String #2")
+
+# This is
+#a multiline
+#comment.
+print("Hello!")
+
+print("")
+print("A funcao input()")
+
+
+print("Tell me anything...")
+#anything = input()
+print("Hmm...", anything, "... Really?")
+
