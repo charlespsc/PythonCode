@@ -212,5 +212,22 @@ print("A funcao input()")
 
 print("Tell me anything...")
 #anything = input()
-print("Hmm...", anything, "... Really?")
+#print("Hmm...", anything, "... Really?")
 
+#fnam = input("May I have your first name, please? ")
+#lnam = input("May I have your last name, please? ")
+#print("Thank you.")
+#print("\nYour name is " + fnam + " " + lnam + ".")
+
+#Replicação
+print ("James" * 3)
+print (3 * "Ana" * 3)
+print (5 * "2")
+print ("2" * 5)
+print (5 * "2")
+print (5 * 2)
+
+#Este programa simples "desenha" um retângulo, fazendo uso de um antigo operador (+) num novo papel:
+print("+" + 10 * "-" + "+")
+print(("|" + " " * 10 + "|\n") * 5, end="")
+print("+" + 10 * "-" + "+")
