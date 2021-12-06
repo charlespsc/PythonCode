@@ -232,4 +232,54 @@ print("+" + 10 * "-" + "+")
 print(("|" + " " * 10 + "|\n") * 5, end="")
 print("+" + 10 * "-" + "+")
 
+#Conversão de tipo: str()
+#
+#
+### LAB - input e Output SIMPLES ###
+#
+# input a float value for variable a here
+#leg_a = float(input("Input first leg length: "))
+# input a float value for variable b here
+#leg_b = float(input("Input second leg length: "))
+#
+# output the result of addition here
+#print("SOMA: " + str(leg_a + leg_b))
+# output the result of subtraction here
+#print("SUBTRAIR: " + str(leg_a - leg_b))
+# output the result of multiplication here
+#print("MULTIPLICAR: " + str(leg_a * leg_b))
+# output the result of division here
+#print("DIVIDIR: " + str(leg_a / leg_b))
+#
+#print("\nThat's all, folks!")
+#
+#
+#
+#name = input("Enter your name: ")
+#print("Hello, " + name + ". Nice to meet you!")
+#
+#print("\nPress Enter to end the program.")
+#input()
+#print("THE END.")
 
+#num_1 = input("Enter the first number: ") # Enter 12
+#num_2 = input("Enter the second number: ") # Enter 21
+#
+#print(num_1 + num_2) # the program returns 1221
+
+
+#Exercício 1
+#Qual é o output do seguinte snippet?
+#x = int(input("Enter a number: ")) # The user enters 2
+#print(x * "5")
+
+print (123 + 0.0)
+print (1 ** 2 ** 3)
+
+print ( 1 // 2 * 3 )
+
+print ("questao")
+x = int(input(2))
+y = int(input(4))
+
+print (x + y)
