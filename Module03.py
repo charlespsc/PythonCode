@@ -12,3 +12,4 @@ print(var != 0)
 var = 1  # Assigning 1 to var
 print(var != 0)
 
+print ("Operadores de comparação: maior que ou igual a >=")
