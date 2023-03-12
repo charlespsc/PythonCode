@@ -43,5 +43,12 @@ print()
 print("\\")
 print()
 print("A aranha pequenininha" , "subiu" , "a tromba d'água.") # 3 argumentos
-
-
+print()
+print("Meu nome é", "Python.", end=" ")
+print("Monty Python.")
+print()
+print("Meu", "nome", "é", "Monty", "Python.", sep="->")
+print()
+print("Meu", "nome", "é", sep="_", end="*")
+print("Monty", "Python.", sep="*", end="*\n")
+print()
