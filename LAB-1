@@ -26,3 +26,22 @@ print ("Olá, Python")
 # print "Charles" -> retirar o comentário para gerar o erro!
 print ('Charles')
 print ("teste")
+print()
+print("A pequenina aranha escalou a tromba d'água.")
+print()
+print("Caiu a chuva e lavou a aranha.")
+print()
+print("A aranha pequenininha\nsubiu a tromba d'água.")
+print()
+print("abaixo veio a chuva\ne lavou a aranha.")
+
+# print("\")
+#      print("\")
+#            ^
+# SyntaxError: unterminated string literal (detected at line 38)
+print()
+print("\\")
+print()
+print("A aranha pequenininha" , "subiu" , "a tromba d'água.") # 3 argumentos
+
+
