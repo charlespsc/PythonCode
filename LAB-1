@@ -1,0 +1,28 @@
+#Cenário
+#O comando print(), que é uma das diretrizes mais fáceis em Python, simplesmente imprime uma linha na tela.
+
+#Em seu primeiro laboratório:
+
+# 1 - Use a função de print() para imprimir a linha Olá, Python! na tela. Use aspas duplas ao redor da string.
+# 2 - Depois de fazer isso, use a função print() novamente, mas desta vez imprima seu primeiro nome.
+# 3 - Remova as aspas duplas e execute o código. Assista à reação do Python. Que tipo de erro é gerado?
+    # Traceback (most recent call last):
+    #   File "/home/charles/Documentos/GitHub/PythonCode/LAB-1", line 22, in <module>
+    #     print(Charles)
+    # NameError: name 'Charles' is not defined
+#
+# 4 - Em seguida, remova os parênteses, coloque aspas duplas e execute o código novamente. Que tipo de erro é gerado desta vez?
+    #   File "/home/charles/Documentos/GitHub/PythonCode/LAB-1", line 23
+    #        print "Charles"
+    #        ^^^^^^^^^^^^^^^
+    # SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
+#
+# 5 - Experimente o máximo que puder. Altere aspas duplas para aspas simples, use várias funções print() na mesma linha e, em seguida, em linhas diferentes. 
+
+#Veja o que acontece.
+
+print ("Olá, Python")
+# print (Charles) -> retirar o comentário para gerar o erro!
+# print "Charles" -> retirar o comentário para gerar o erro!
+print ('Charles')
+print ("teste")
