@@ -1,8 +1,10 @@
-#Cenário
+#LAB   Trabalhando com a função print()
+# 
+# Cenário
 #O comando print(), que é uma das diretrizes mais fáceis em Python, simplesmente imprime uma linha na tela.
-
+#
 #Em seu primeiro laboratório:
-
+#
 # 1 - Use a função de print() para imprimir a linha Olá, Python! na tela. Use aspas duplas ao redor da string.
 # 2 - Depois de fazer isso, use a função print() novamente, mas desta vez imprima seu primeiro nome.
 # 3 - Remova as aspas duplas e execute o código. Assista à reação do Python. Que tipo de erro é gerado?
@@ -18,7 +20,7 @@
     # SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
 #
 # 5 - Experimente o máximo que puder. Altere aspas duplas para aspas simples, use várias funções print() na mesma linha e, em seguida, em linhas diferentes. 
-
+#
 #Veja o que acontece.
 
 print ("Olá, Python")
