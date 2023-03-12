@@ -5,7 +5,10 @@
 # Não altere nada na segunda invocação de print().
 #
 # Saída esperada
-# Programação***Essenciais***em...Python
+# Programação***Essenciais***em...Python.
 
+print("H", "E", "L", "L", "O", sep="-")
+print()
 print("Programação","Essenciais","em", sep="***", end="...")
 print("Python")
+print()

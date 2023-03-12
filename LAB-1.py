@@ -54,3 +54,12 @@ print()
 print("Meu", "nome", "é", sep="_", end="*")
 print("Monty", "Python.", sep="*", end="*\n")
 print()
+# Solução de Amostra
+
+print("Olá, Python!")
+# print("Greg")
+# print(Greg)
+# print"Greg"
+# print('Greg')
+# print("Greg") print("Python")
+# ...</sampleSolution>
