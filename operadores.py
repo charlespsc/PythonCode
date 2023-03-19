@@ -25,3 +25,18 @@ print(6. / 3.)
 print ("")
 #
 #
+print("Divisão de número inteiro (divisão arredondada)")
+print(6 // 3)
+print(6 // 3.)
+print(6. // 3)
+print(6. // 3.)
+print ("")
+print(6 // 4)
+print(6. // 4)
+print ("")
+print(-6 // 4)
+print(6. // -4)
+print ("")
+#
+#
+
