@@ -39,4 +39,5 @@ print(6. // -4)
 print ("")
 #
 #
+print("Restante (módulo)")
 
