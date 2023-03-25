@@ -14,7 +14,7 @@
 #
 # Mantenha seu código limpo e legível e teste-o usando os dados que fornecemos, atribuindo-o sempre à variável x (codificando-o). 
 # Não desanime por qualquer falha inicial. Seja persistente e inquisitivo.
-x = -1 # Codifique seus dados de teste aqui.
+x = 1 # Codifique seus dados de teste aqui.
 x = float(x)
 # Escreva seu código aqui.
 y = 3 * x ** 3 - 2 * x ** 2 + 3 * x - 1
