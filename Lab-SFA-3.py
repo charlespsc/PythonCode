@@ -19,3 +19,21 @@ x = float(x)
 # Escreva seu código aqui.
 y = 3 * x ** 3 - 2 * x ** 2 + 3 * x - 1
 print("y =", y)
+#
+#
+print("Respostas para o exemplo: ")
+x = 0
+x = float(x)
+y = 3 * x**3 - 2 * x**2 + 3 * x - 1
+print("y =", y)
+
+x = 1
+x = float(x)
+y = 3 * x**3 - 2 * x**2 + 3 * x - 1
+print("y =", y)
+
+x = -1
+x = float(x)
+y = 3 * x**3 - 2 * x**2 + 3 * x - 1
+print("y =", y)
+
