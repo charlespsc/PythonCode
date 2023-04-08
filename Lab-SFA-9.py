@@ -25,13 +25,15 @@
 #
 #
 #
-renda = float(input("Entre com os rendimentos anuais "))
+renda = float(input("Entre com os rendimentos anuais: "))
 
 if renda < 85528:
- taxa = renda * 0.18 - 556.02
+    taxa = renda * 0.18 - 556.02
+    taxa = round(taxa, 0)
+    if taxa < 0:
+        taxa = float (0)
 if renda > 85528:
  taxa = ((renda - 85528) * 0.32) + 14839.02
  taxa = round(taxa, 0)
-
-    
+ 
 print("A taxa é:", taxa, "thalers") 
