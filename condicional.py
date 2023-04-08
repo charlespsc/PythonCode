@@ -1,5 +1,3 @@
-# Condições e execução condicional
-#
 print("Condições e execução condicional\n")
 print("Execução condicional: o comando if")
 #
@@ -18,7 +16,7 @@ print("Execução condicional: o comando if-else")
 # else:
 #     perform_if_condition_false
 # 
-# O comando if-else: mais execução condicional
+print ("O comando if-else: mais execução condicional")
 # if the_weather_is_good:
 #     go_for_a_walk()
 # else:
@@ -33,7 +31,7 @@ print("Execução condicional: o comando if-else")
 #     enjoy_the_movie()
 # have_lunch()
 #
-# Comandos if-else aninhados
+print ("Comandos if-else aninhados")
 # if the_weather_is_good:
 #     if nice_restaurant_is_found:
 #         have_lunch()
@@ -44,10 +42,11 @@ print("Execução condicional: o comando if-else")
 #         go_to_the_theater()
 #     else:
 #         go_shopping()
-#
-# O comando elif
+# #
+print ("O comando elif")
 # elif é usado para verificar mais de uma condição e parar quando
 # a primeira declaração verdadeira é encontrada.
+#
 # if the_weather_is_good:
 #     go_for_a_walk()
 # elif tickets_are_available:
@@ -56,6 +55,7 @@ print("Execução condicional: o comando if-else")
 #     go_for_lunch()
 # else:
 #     play_chess_at_home()
+#
 # A maneira de montar instruções if-elif-else subsequentes é chamada de cascata.
 #
 print("Exemplo 1")
