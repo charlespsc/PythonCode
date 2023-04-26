@@ -30,7 +30,9 @@
     #     print("O valor de i é atualmente", i)
     #
 # A variável expo é usada como uma variável de controle para o loop e indica o valor atual do expoente.
-power = 1
-for expo in range(16):
-  print("2 à potência de", expo, "é", power)
-  power *= 2
+# power = 1
+# for expo in range(16):
+#   print("2 à potência de", expo, "é", power)
+#   power *= 2
+#
+#
