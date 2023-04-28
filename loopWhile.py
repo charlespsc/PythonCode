@@ -1,4 +1,4 @@
-print("Fazendo um loop no seu código com while")
+# print("Fazendo um loop no seu código com while")
 #
 # Você concorda com a afirmação apresentada abaixo?
 #
@@ -13,7 +13,7 @@ print("Fazendo um loop no seu código com while")
 #     ...
 #     instruction_n
 
-print("Um loop infinito")
+# print("Um loop infinito")
 #while True:
 #    print("Estou preso dentro de um loop.")
 #
@@ -68,8 +68,36 @@ print("Um loop infinito")
 #     counter -= 1
 # print("Fora do circuito.", counter)
 
-counter = 5
-while counter != 0:
-    print("Dentro do laço.", counter)
-    counter -= 1
-print("Fora do circuito.", counter)
+# counter = 5
+# while counter != 0:
+#     print("Dentro do laço.", counter)
+#     counter -= 1
+# print("Fora do circuito.", counter)
+
+# print("3.2.12 O loop while e o ramo else")
+# i = 1
+# while i < 5:
+#     print(i)
+#     i += 1
+# else:
+#     print("else:", i)
+
+# i = 5
+# while i < 5:
+#     print(i)
+#     i += 1
+# else:
+#     print("else:", i)
+
+print("3.2.13 O loop for e o ramo else")
+# for i in range(5):
+#      print(i)
+# else:
+#  print("else:", i)
+
+
+i = 111
+for i in range(2, 1):
+    print(i)
+else:
+    print("else:", i)
