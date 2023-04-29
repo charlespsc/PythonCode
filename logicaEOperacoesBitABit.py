@@ -19,10 +19,13 @@
 
 # Aqui estão todos eles:
 
-# & (e comercial) - conjunção bit a bit;
-# | (barra) - disjunção bit a bit;
-# ~ (til) - negação bit a bit;
+# & (e comercial) - conjunção bit a bit; E
+# | (barra) - disjunção bit a bit; OU / OR
+# ~ (til) - negação bit a bit; NOT
 # ^ (circunflexo) ‒ bit a bit exclusivo ou (xor).
 
-
-
+# 3.3.6 Deslocamento binário para a esquerda e deslocamento binário para a direita
+var = 17
+var_right = var >> 1
+var_left = var << 2
+print (var, var_left, var_right)
