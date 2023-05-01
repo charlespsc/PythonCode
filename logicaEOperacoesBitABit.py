@@ -25,10 +25,10 @@
 # ^ (circunflexo) ‒ bit a bit exclusivo ou (xor).
 
 # 3.3.6 Deslocamento binário para a esquerda e deslocamento binário para a direita
-var = 17
-var_right = var >> 1
-var_left = var << 2
-print (var, var_left, var_right)
+# var = 17
+# var_right = var >> 1
+# var_left = var << 2
+# print (var, var_left, var_right)
 
 # 3.3.7 RESUMO DA SEÇÃO
 # 
@@ -66,7 +66,22 @@ print (var, var_left, var_right)
  
 # z = ((x == y) and (x == y)) or not(x == y)
 # print(not(z))
+# 
+# Output -> False
+
+# Pergunta 2: Qual é a saída do trecho de código?
+
+
+# x = 4
+# y = 1
  
-
-
+# a = x & y
+# b = x | y
+# c = ~x  # tricky!
+# d = x ^ 5
+# e = x >> 2
+# f = x << 2
+ 
+# print(a, b, c, d, e, f)
+# Output -> 0 5 -5 1 1 16
 
