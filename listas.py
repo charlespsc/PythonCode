@@ -54,9 +54,10 @@
 # ###
 
 
-
-# 3.4.5 Os índices negativos são legais
-
-numbers = [111, 7, 2, 1]
-print(numbers[-4])
+# # 3.4.5 Os índices negativos são legais
+# numbers = [111, 7, 2, 1]
+# print(numbers[-4])
+#
+#
+# 3.4.7 Funções x métodos
 
