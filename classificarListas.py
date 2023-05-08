@@ -113,3 +113,54 @@
 ### 3.6 Seção 6 - Operações em listas ###
 #########################################
 
+# 3.6.1 A vida interior das listas
+
+# list_1 = [1]
+# list_2 = list_1
+# list_1 [0] = 2
+# print(list_2)
+
+
+# # 3.6.2 Os poderes do fatiamento
+
+# list_1 = [1]
+# list_2 = list_1[:]
+# list_1[0] = 2
+# print(list_2)
+
+# # my_list[start:end]
+# my_list = [10, 8, 6, 4, 2]
+# new_list = my_list[1:3]
+# print(new_list)
+
+# Copiar a lista inteira.
+# list_1 = [1]
+# list_2 = list_1 [:]
+# list_1 [0] = 2
+# print (list_2)
+
+# # Copiando parte da lista.
+# my_list = [10, 8, 6, 4, 2]
+# new_list = my_list [1: 3]
+# print(new_list)
+
+#  3.6.3 Fatias - índices negativos
+
+# my_list[start:end]
+
+# É assim que os índices negativos trabalham com o particionamento:
+# my_list = [10, 8, 6, 4, 2]
+# new_list = my_list[1:-1]
+# print(new_list)
+
+# Se o start especificar um elemento além do descrito no end (do início da lista), a fatia estará vazia:
+# my_list = [10, 8, 6, 4, 2]
+# new_list = my_list[-1:1]
+# print(new_list)
+
+# # Se você omitir o start na fatia, presume-se que você deseja obter uma fatia começando no elemento com índice 0.
+# my_list[:end]
+
+my_list = [10, 8, 6, 4, 2]
+new_list = my_list[:3]
+print(new_list)
