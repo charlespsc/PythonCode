@@ -161,6 +161,41 @@
 # # Se você omitir o start na fatia, presume-se que você deseja obter uma fatia começando no elemento com índice 0.
 # my_list[:end]
 
-my_list = [10, 8, 6, 4, 2]
-new_list = my_list[:3]
-print(new_list)
+# my_list = [10, 8, 6, 4, 2]
+# new_list = my_list[:3]
+# print(new_list)
+
+# my_list = [10, 8, 6, 4, 2]
+# new_list = my_list[3:]
+# print(new_list)
+
+# my_list = [10, 8, 6, 4, 2]
+# new_list = my_list[:]
+# print(new_list)
+
+# Mais sobre a instrução del
+# A instrução del descrita anteriormente é capaz de excluir mais do que apenas os elementos de uma lista de uma só vez - ela também pode excluir fatias:
+    
+
+# my_list = [10, 8, 6, 4, 2]
+# del my_list[1:3]
+# print(my_list)
+
+
+# # Também é possível excluir todos os elementos de uma só vez:
+# my_list = [10, 8, 6, 4, 2]
+# del my_list[:]
+# print(my_list)
+
+# # A remoção da fatia do código muda bastante de significado.
+
+# my_list = [10, 8, 6, 4, 2]
+# del my_list
+# print(my_list)
+ 
+# A instrução del excluirá a lista em si, não seu conteúdo.
+
+
+### 3.6.4 Os operadores in e not in ###
+
+
