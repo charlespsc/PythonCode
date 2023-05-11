@@ -14,13 +14,13 @@
 # 6 - experimente com seu código: crie novas variáveis, atribua valores diferentes a elas e execute várias operações aritméticas nelas (por exemplo, +, -, *, /, //, etc.). Tente imprimir uma sequência de caracteres e um número inteiro juntos em uma linha, por exemplo, "Número total de maças:" e total_apples.
 #
 #
-john = 3
-mary = 5
-adam = 6
-total_apples = john + mary + adam
+# john = 3
+# mary = 5
+# adam = 6
+# total_apples = john + mary + adam
 
-print(john, ",",mary,",", adam)
-print("Total Apples: ", total_apples)
+# print(john, ",",mary,",", adam)
+# print("Total Apples: ", total_apples)
 #
 #
 print("Resposta do exemplo: \n")
