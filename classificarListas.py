@@ -199,3 +199,58 @@
 ### 3.6.4 Os operadores in e not in ###
 
 
+# my_list = [0, 3, 12, 8, 2]
+
+# print(5 in my_list)             # False
+# print(5 not in my_list)         # True
+# print(12 in my_list)            # True
+
+
+# 3.6.5 Listas - alguns programas simples
+
+# my_list = [17, 3, 11, 5, 1, 9, 7, 15, 13]
+# largest = my_list[0]
+
+# for i in range(1, len(my_list)):
+#     if my_list[i] > largest:
+#         largest = my_list[i]
+
+# print(largest)
+
+# my_list = [17, 3, 11, 5, 1, 9, 7, 15, 13]
+# largest = my_list[0]
+ 
+# for i in my_list:
+#     if i > largest:
+#         largest = i
+ 
+# print(largest)
+
+
+# Se precisar economizar energia do computador, use uma fatia:
+
+# my_list = [17, 3, 11, 5, 1, 9, 7, 15, 13]
+# largest = my_list[0]
+ 
+# for i in my_list[1:]:
+#     if i > largest:
+#         largest = i
+ 
+# print(largest)
+
+
+# Agora vamos encontrar a localização de um determinado elemento dentro de uma lista:
+
+my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+to_find = 5
+found = False
+ 
+for i in range(len(my_list)):
+    found = my_list[i] == to_find
+    if found:
+        break
+ 
+if found:
+    print("Elemento encontrado no índice", i)
+else:
+    print("ausente")
