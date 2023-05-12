@@ -16,10 +16,34 @@
 # Não fornecemos dados de teste, pois isso seria muito fácil. Você pode usar o nosso esqueleto.
 
 my_list = [1, 2, 4, 4, 1, 4, 2, 6, 2, 9]
-#
-# Escreva seu código aqui.
-#
-print("A lista com os elementos exclusivos aqui")
+# Sua tarefa é escrever um programa que remova todas as repetições de números da lista.
+new_list = [] 
+
+for numero in my_list:
+    if numero not in new_list:
+        new_list.append(numero)
+
+print("Nova Lista: ", new_list)
+
+# Claro, você pode melhorar o código e adicionar uma parte que possa conversar com o usuário e obter todos os dados dele. 
+user_list = []  # Criando uma lista vazia.
+
+user_list.append(int(input("\nDigite o primeiro números: ")))
+user_list.append(int(input("Digite o segundo números: ")))
+user_list.append(int(input("Digite o terceiro números: ")))
+user_list.append(int(input("Digite o quarto números: ")))
+user_list.append(int(input("Digite o quinto números: ")))
+
+user_new_list = [] 
+
+for userNum in user_list:
+    if userNum not in user_new_list:
+        user_new_list.append(userNum)
+
+print("\nLista do usuário: ", user_new_list)
+
+######################################################################
+print("\nA lista com os elementos exclusivos aqui")
 print(my_list)
 
 
