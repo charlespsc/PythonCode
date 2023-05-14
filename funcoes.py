@@ -344,3 +344,49 @@ introduction(last_name="Hopkins")
 # Incompleta 4.2.7 TESTE DA SEÇÃO
 
 
+############################
+### 4.2.7 TESTE DA SEÇÃO ###
+############################
+
+# Pergunta 1: Qual é a saída do trecho de código?
+# def intro(a="James Bond", b="Bond"):
+#      print("Meu nome é", b + ".", a + ".")
+ 
+# intro()
+# Output -> Meu nome é Bond. James Bond.
+
+
+# Pergunta 2: Qual é a saída do trecho de código?
+# def intro(a="James Bond", b="Bond"):
+#     print("Meu nome é", b + ".", a + ".")
+ 
+# intro(b="Sean Connery")
+# Output -> Meu nome é Sean Connery. James Bond.
+
+
+# Pergunta 3: Qual é a saída do trecho de código?
+# def intro(a, b="Bond"):
+#     print("Meu nome é", b + ".", a + ".")
+ 
+# intro("Susan")
+# Output -> Meu nome é Bond. Susan.
+
+
+# Pergunta 4: Qual é a saída do trecho de código?
+# def add_numbers(a, b=2, c):
+#     print(a + b + c)
+ 
+# add_numbers(a=1, c=3)
+# Output -> SyntaxError - um argumento não padrão (c) Segue um argumento default (b=2).
+
+
+###########################################################
+### 4.3 Seção 3 - Retornando um resultado de uma função ###
+###########################################################
+
+# Bem-vindo à seção 3! Nesta parte do curso, você aprenderá sobre os efeitos e resultados das funções, a expressão return e o valor None. 
+# Você também aprenderá como passar listas como argumentos de função, como retornar listas como resultados de função e como atribuir resultados de função a variáveis. 
+
+
+
+
