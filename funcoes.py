@@ -41,15 +41,15 @@
 
 # Vamos retornar ao nosso exemplo principal e empregar a função para o trabalho certo, como aqui:
     
-def message():
-    print("Entre um valor: ")
+# def message():
+#     print("Entre um valor: ")
  
-message()
-a = int(input())
-message()
-b = int(input())
-message()
-c = int(input())
+# message()
+# a = int(input())
+# message()
+# b = int(input())
+# message()
+# c = int(input())
 
 
 #############################
@@ -136,4 +136,112 @@ c = int(input())
 ####################################
 ### 4.2.1 Funções parametrizadas ###
 ####################################
+
+# Um parâmetro é na verdade uma variável, mas há dois fatores importantes que tornam os parâmetros diferentes e especiais:
+
+# parâmetros existem apenas dentro de funções nas quais eles foram definidos, e o único lugar onde o parâmetro pode ser definido é um espaço entre um par de parênteses na declaração def;
+# a atribuição de um valor ao parâmetro é feita no momento da chamada da função, especificando o argumento correspondente.
+# def function(parameter):
+#     ###
+    
+# Não se esqueça:
+
+# parâmetros vivem em funções internas (este é o ambiente natural)
+# argumentos existem fora das funções e são portadores de valores passados para os parâmetros correspondentes.
+
+# Vamos agora melhorar o corpo da função:
+# def message(number):
+#     print("Digite um número:", number)
+
+# Parece melhor, com certeza:
+# def message(number):
+#     print("Digite um número:", number)
+ 
+# message(1)
+
+# def message(number):
+#     print("Digite um número:", number)
+ 
+# number = 1234
+# message(1)
+# print(number)
+
+# Uma situação como essa ativa um mecanismo chamado shadowing:
+    
+#     O parâmetro x oculta qualquer variável com o mesmo nome, mas ...
+# ... somente dentro da função que define o parâmetro.
+    
+#     O parâmetro chamado number é uma entidade completamente diferente da variável chamada number.
+
+# Vamos modificar a função - ela tem dois parâmetros agora:
+
+# def message(what, number):
+#     print("Entrar", what, "número", number)
+
+# def message(what, number):
+#     print("Entrar com ", what, "número", number)
+ 
+# message("telefone: ", 11)
+# message("preço: ", 5)
+# message("número: ", "47 9999-1234")
+
+
+
+### 4.2.2 Passagem de parâmetros posicionais ###
+################################################
+
+# def my_function(a, b, c):
+#     print(a, b, c)
+ 
+# my_function(1, 2, 3)
+
+
+# def introduction(first_name, last_name):
+#     print("Olá meu nome é", first_name, last_name)
+ 
+# introduction("Luke", "Skywalker")
+# introduction("Jesse", "Quick")
+# introduction("Clark", "Kent")
+
+# def introduction(first_name, last_name):
+#     print("Olá meu nome é", first_name, last_name)
+ 
+# introduction("Skywalker", "Luke")
+# introduction("Quick", "Jesse")
+# introduction("Kent", "Clark")
+ 
+ 
+### 4.2.3 Passagem de parametro por palavra-chave ###
+#####################################################
+
+# def introduction(first_name, last_name):
+#     print("Olá meu nome é", first_name, last_name)
+ 
+# introduction(first_name = "James", last_name = "Bond")
+# introduction(last_name = "Skywalker", first_name = "Luke")
+
+
+
+### 4.2.4 Mistura de argumentos posicionais e de palavras-chave ###
+###################################################################
+
+# Há apenas uma regra inquebrável: você precisa colocar argumentos posicionais antes dos argumentos das palavras-chave.
+
+# def adding(a, b, c):
+#     print(a, "+", b, "+", c, "=", a + b + c)
+    
+# # adding(1, 2, 3)
+ 
+# # adding(c = 1, a = 2, b = 3)
+
+# adding(3, c = 1, b = 2)
+
+
+### 4.2.5 Funções parametrizadas – mais detalhes ###
+####################################################
+
+
+
+
+
 
