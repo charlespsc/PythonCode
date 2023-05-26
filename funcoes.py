@@ -463,13 +463,140 @@
 ## Uma lista pode ser um resultado de função?
 # Veja o código no editor:
     
-def strange_list_fun(n):
- strange_list = []
+# def strange_list_fun(n):
+#  strange_list = []
  
- for i in range(0, n):
-    strange_list.insert(0, i)
+#  for i in range(0, n):
+#     strange_list.insert(0, i)
  
- return strange_list
+#  return strange_list
 
-print(strange_list_fun(5))
+# print(strange_list_fun(5))
 
+
+
+
+###############################
+#### 4.3.9 RESUMO DA SEÇÃO ####
+###############################
+
+# 1. Você pode usar a palavra-chave return para informar uma função para retornar algum valor. A declaração de return sai da função, por exemplo:
+
+# def multiply(a, b):
+#     return a * b
+ 
+# print(multiply(3, 4)) # saídas: 12
+ 
+ 
+# def multiply(a, b):
+#     return
+ 
+# print(multiply(3, 4)) # saídas: None
+ 
+ 
+# 2. O resultado de uma função pode ser facilmente atribuído a uma variável, por exemplo:
+
+# def wishes():
+#     return "Feliz aniversário!"
+ 
+# w = wishes()
+ 
+# print(w) # saídas: Feliz aniversário!
+ 
+# # Veja a diferença de saída nos dois exemplos a seguir:
+
+# # # Exemplo 1
+# def wishes():
+#     print("Meus desejos")
+#     return "Feliz aniversário!"
+ 
+# wishes() # saídas: Meus desejos
+ 
+# # Exemplo 2
+# def wishes():
+#     print("Meus desejos")
+#     return "Feliz aniversário!"
+ 
+# print(wishes())
+# # saídas: Meus desejos
+# # Feliz aniversário!
+ 
+ 
+# # 3. Você pode usar uma lista como argumento de função, por exemplo:
+
+# def hi_everybody(my_list):
+#    for name in my_list:
+#    "woda": "água",
+#          print("Oi,", name)
+ 
+# hi_everybody(["Adão", "John", "Lucy"])
+ 
+# # 4. Uma lista também pode ser um resultado de função, por exemplo:
+
+
+# def create_list(n):
+#     my_list = []
+#     for i in range(n):
+#         my_list.append(i)
+#     return my_list
+ 
+# print(create_list(5))
+ 
+ 
+############################### 
+#### 4.3.10 TESTE DA SEÇÃO ####
+###############################
+
+# # Pergunta 1: Qual é a saída do trecho de código?
+
+# def hi():
+#     return
+#     print("Oi!")
+ 
+# hi()
+
+# # Output -> A função retorna um valor implícito None.
+
+
+# # Pergunta 2: Qual é a saída do trecho de código?
+
+# def is_int(data):
+#     if type(data) == int:
+#         return True
+#     elif type(data) == float:
+#         return False
+ 
+# print(is_int(5))
+# print(is_int(5.0))
+# print(is_int("5"))
+
+# # Output -> True, False, None
+
+
+# # Pergunta 3: Qual é a saída do trecho de código?
+
+# def even_num_lst(ran):
+#     lst = []
+#     for num in range(ran):
+#         if num % 2 == 0:
+#             lst.append(num)
+#     return lst
+ 
+# print(even_num_lst(11))
+
+# # Output -> [0, 2, 4, 6, 8, 10]
+
+
+# # Pergunta 4: Qual é a saída do trecho de código?
+
+# def list_updater(lst):
+#     upd_list = []
+#     for elem in lst:
+#         elem **= 2
+#         upd_list.append(elem)
+#     return upd_list
+ 
+# foo = [1, 2, 3, 4, 5]
+# print(list_updater(foo))
+
+# # Output -> [1, 4, 9, 16, 25]
