@@ -600,3 +600,5 @@
 # print(list_updater(foo))
 
 # # Output -> [1, 4, 9, 16, 25]
+
+# Teste 123
